@@ -5,7 +5,7 @@ term linux
 ## escape ``
 ##set a biger buffer
 defscrollback 4096
-#ÉèÖÃ×´Ì¬À¸
+#è®¾ç½®çŠ¶æ€æ 
 hardstatus alwayslastline                                                                                                                   
 shelltitle "$|bash"
 
@@ -25,20 +25,18 @@ screen
 screen
 select 0
 
-#½øĞĞ¿ì½İ¼üµÄ°ó¶¨
+#è¿›è¡Œå¿«æ·é”®çš„ç»‘å®š
 bindkey -k k1 screen
 bindkey -k k2 title
 bindkey -k k3 monitor
 bindkey -k k4 silence
 bindkey -k k5 colon
-#bindkey -k k6 split
-#bindkey -k k; focus
+bindkey -k k6 split
 bindkey -k k7 focus
-#bindkey -k k8 only
+bindkey -k k8 only
 bindkey -k k9 detach
 bindkey -k F1 prev
 bindkey -k F2 next
 attrcolor u "-u B"
 sessionname liukui
 autodetach on
-
