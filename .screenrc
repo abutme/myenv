@@ -6,8 +6,8 @@ term linux
 ##set a biger buffer
 defscrollback 4096
 #设置状态栏
-hardstatus alwayslastline                                                                                                                   
-shelltitle "$|bash"
+hardstatus alwayslastline
+shelltitle "$|mytab"
 
 #hardstatus string '%{= kG}[ %{G}%c:%s %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][ %{C}(F1)New (F2)Rename (F3)Monitor (F4)Slience %{g}][%{kB} %d/%m %{w}%c %{g}]'
 hardstatus string '%{= kG}[ %{G} %Y/%m/%d %c %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][ %{G} %H %{g}][ %{C}(F1)New (F2)Rename (F3)Monitor %{g}]'
