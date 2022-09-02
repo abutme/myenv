@@ -1,5 +1,15 @@
 ## 工作环境安装说明
 ===========================
+
+### vim配置方法
+
+1. 将.vim文件夹整体置于用户目录下
+
+2. 在用户目录下创建软链指向.vim/.vimrc
+
+ln -s ~/.vim/.vimrc ~/.vimrc
+
+
 ### tmux无root安装
 
 * tmux依赖于libevent，首先安装libevent，指定--prefix参数。如：
