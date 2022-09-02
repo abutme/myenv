@@ -1,9 +1,9 @@
-" liukui authorized only
+" simply put it at user path `~/.vimrc` or create a soft link `~/.vimrc` poiting to the original `~/.vim/.vimrc`
 set nocompatible
 set fileencoding=utf-8
 set fileencodings=ucs-bom,utf-8,gb18030,big5,euc-jp,euc-kr,latin1
 set encoding=utf-8
-set termencoding=&encoding
+set termencoding=utf-8
 set fileformats=unix
 set display=lastline
 set viewoptions=cursor,folds
